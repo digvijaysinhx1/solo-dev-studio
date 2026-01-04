@@ -1,10 +1,10 @@
-import React from 'react'
+import GetBtn from "./component/btn/GetBtn"
 
 const App = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <GetBtn/>
+    </>
   )
 }
 

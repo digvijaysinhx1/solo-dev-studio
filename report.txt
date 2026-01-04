@@ -1,0 +1,226 @@
+Locking the colors **now** is smart. Once colors drift, the whole site loses control.
+Below is a **final, complete color palette** for **Solo Dev Studio**, with **exact usage rules** so you don’t second-guess later.
+
+No theory fluff. This is your source of truth.
+
+---
+
+# **Solo Dev Studio — Color Palette**
+
+## 1. Core Background Colors
+
+### Primary Background
+
+**Charcoal Black**
+
+```
+#0B0B0C
+```
+
+Use for:
+
+* Entire page background
+* Hero section
+* Navbar area
+* Footer background
+
+Rule: never replace this with pure black.
+
+---
+
+### Card / Surface Background
+
+**Soft Graphite**
+
+```
+#141416
+```
+
+Use for:
+
+* Service cards
+* Pricing cards
+* Contact form container
+* Any elevated section
+
+This creates depth without shadows.
+
+---
+
+## 2. Text Colors
+
+### Primary Text
+
+**Soft White**
+
+```
+#F1F1F1
+```
+
+Use for:
+
+* Headings
+* Main body text
+* Important labels
+
+Never use pure white (`#FFFFFF`). It’s too harsh.
+
+---
+
+### Secondary / Muted Text
+
+**Muted Ash**
+
+```
+#9A9A9A
+```
+
+Use for:
+
+* Descriptions
+* Helper text
+* Footer text
+* Subtitles
+
+This is what makes the site feel calm.
+
+---
+
+## 3. Border & Divider Color
+
+### Subtle Border
+
+```
+rgba(255, 255, 255, 0.08)
+```
+
+Use for:
+
+* Card outlines
+* Input borders
+* Section separators (if any)
+
+No visible lines. Just suggestion.
+
+---
+
+## 4. Accent Color (Only One)
+
+### Steel Indigo (Accent)
+
+```
+#6B7CFF
+```
+
+Use **sparingly** for:
+
+* Primary CTA buttons
+* Important links
+* Highlighted pricing card border
+* Active states (focus, hover)
+
+Never use accent color for:
+
+* Paragraph text
+* Background fills of sections
+* Decorative elements
+
+If you feel tempted to add a second accent, don’t.
+
+---
+
+## 5. Button Color Rules
+
+### Primary Button
+
+* Background: `#6B7CFF`
+* Text: `#0B0B0C`
+
+### Secondary Button
+
+* Background: transparent
+* Border: `rgba(255,255,255,0.12)`
+* Text: `#F1F1F1`
+
+Hover:
+
+* Slight brightness increase only
+* No scale, no glow
+
+---
+
+## 6. Input Field Colors
+
+* Background: transparent or `#141416`
+* Border: `rgba(255,255,255,0.1)`
+* Text: `#F1F1F1`
+* Placeholder: `#9A9A9A`
+
+Focus state:
+
+* Border turns accent color
+* No box shadow
+
+---
+
+## 7. Disabled / Low-Emphasis Elements
+
+Use:
+
+```
+rgba(241, 241, 241, 0.4)
+```
+
+For:
+
+* Disabled buttons
+* Secondary labels
+* Less important metadata
+
+---
+
+## 8. DO NOT USE (Strict)
+
+Do **not** introduce:
+
+* Gradients
+* Neon colors
+* Warm colors (orange, red, yellow)
+* Pure black or pure white
+* Glassmorphism blur
+
+These will break the premium calm.
+
+---
+
+## 9. Visual Hierarchy Using Color
+
+Hierarchy comes from:
+
+1. Size
+2. Spacing
+3. Weight
+
+**Not** color.
+
+Color is a guide, not a shout.
+
+---
+
+## 10. One-Line Memory Rule
+
+If you forget everything else, remember this:
+
+> Dark charcoal base, soft white text, one calm blue accent, nothing more.
+
+Stick to this palette and your site will stay clean, global, and professional.
+
+---
+
+If you want next:
+
+* A Tailwind color config
+* A Figma color style setup
+* A contrast accessibility check
+
+This palette is final and safe to build on.
