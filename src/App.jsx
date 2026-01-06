@@ -5,7 +5,7 @@ import Span from "./component/spans/Span"
 const App = () => {
   return (
     <>
-    <div className="flex flex-col w-full relative gap-10 justify-center items-center overflow-x-hidden">
+    <div className="flex flex-col max-w-full relative gap-10 justify-center items-center overflow-x-hidden">
       <Navbar/>
       <Hero/>
     </div>
