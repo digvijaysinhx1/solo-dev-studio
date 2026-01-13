@@ -1,9 +1,15 @@
-import React from 'react'
-
-const Card = () => {
+const Card = (props) => {
   return (
-    <div>
-      
+    <div className='bg-[#0D0D0D] text-[#F1F1F1] h-70  w-70 flex flex-col justify-between items-center rounded-2xl text-center py-10 px-7 md:py-7 md:px-4 gap-3 md:gap-1 border border-[#202020]' style={{fontFamily:"Syne"}}>
+      <div className="cardPng">
+        <img src={props.png} alt="internet png" loading='lazy' className="h-14 w-14"/>
+      </div>
+      <div className='text-2xl md:leading-snug'>
+      {props.heading}
+    </div>
+    <div className='text-sm text-[#9a9a9a]'>
+      {props.subtext}
+    </div>
     </div>
   )
 }
