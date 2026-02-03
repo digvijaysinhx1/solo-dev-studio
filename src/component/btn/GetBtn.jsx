@@ -10,4 +10,5 @@ const GetBtn = () => {
     </div>
   )
 }
+
 export default GetBtn

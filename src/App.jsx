@@ -1,4 +1,5 @@
 import Hero from "./component/Hero Section/Hero"
+import MultiCardsHiw from "./component/how it works/MultiCardsHiw"
 import Navbar from "./component/navbar/Navbar"
 import Sec3 from "./component/Section 3/Sec3"
 import MultiCardsWwd from "./component/what we do Section/MultiCardsWwd"
@@ -11,6 +12,7 @@ const App = () => {
       <Hero/>
       <MultiCardsWwd/>
       <Sec3/>
+      <MultiCardsHiw/>
     </div>
     
     </>
