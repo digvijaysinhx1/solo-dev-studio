@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
   <>
   
-    <nav className="sticky top-0 z-50 flex justify-center items-center w-full lg:w-[80%] pt-4 px-4">
+    <nav className="sticky top-0 z-50 flex justify-center items-center w-full  pt-4 px-4">
       <div className="bg-white/20 backdrop-blur-sm text-[#F1F1F1] px-4 py-2 w-full max-w-7xl flex  justify-between items-center rounded-4xl sm:text-[1rem]">
         {/* Logo */}
         <a href="#"

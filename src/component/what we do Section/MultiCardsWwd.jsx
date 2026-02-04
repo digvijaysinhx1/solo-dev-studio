@@ -7,7 +7,7 @@ import layers from "../../assets/Layers.png";
 const MultiCardsWwd = (elem) => {
   return (
     <>
-      <div className="gap-5 flex flex-col items-center justify-center">
+      <div className="gap-5 mt-15 flex flex-col items-center justify-center">
         <div className="heading" style={{ fontFamily: "Syne" }}>
           <h1 className="text-5xl font-normal">
             What We{" "}
