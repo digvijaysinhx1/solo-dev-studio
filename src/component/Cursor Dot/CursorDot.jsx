@@ -39,7 +39,7 @@ const CursorDot = () => {
   return (
     <div
       ref={dotRef}
-      className="fixed top-0 left-0 h-4 w-4 rounded-full bg-white mix-blend-difference
+      className="fixed hidden lg:flex top-0 left-0 h-4 w-4 rounded-full bg-white mix-blend-difference
       pointer-events-none z-9999 -translate-x-1/2 -translate-y-1/2
       transition-transform duration-150"
     />

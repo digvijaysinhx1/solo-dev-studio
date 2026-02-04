@@ -15,10 +15,10 @@ const Sec3 = () => {
       <div className="laptops cursor-default bg-[#101010] hidden lg:flex flex-col h-fit w-[70%] relative rounded-2xl overflow-hidden">
         <div className="card1 hover:bg-[#6214D9] bg-[#101010] group flex flex-col gap-7 border-t hover:border-[#B7B7B7] border-[#313131] rounded-t-2xl rounded-b-0 px-3.5 pt-1 hover:pb-8 h-fit w-full">
           <div className="top flex flex-col">
-            <div className="heading text-[25px]" style={{ fontFamily: "Syne" }}>
+            <div className="heading text-[25px] font-bold" style={{ fontFamily: "Syne" }}>
               Getting Online
             </div>
-            <div className="sub-text text-[#A5A5A5] text-[13px]">
+            <div className="sub-text text-white font-normal text-[13px]">
               First website or simple online presence
             </div>
           </div>
@@ -36,10 +36,10 @@ const Sec3 = () => {
         </div>
         <div className="card2 group -mt-5 px-3.5 pt-1 hover:pb-8 hover:bg-[#6214D9] bg-[#101010] flex flex-col gap-7 py-1 h-fit border-t hover:border-[#B7B7B7] border-[#313131] rounded-t-2xl rounded-b-0 w-full">
           <div className="top">
-            <div className="heading text-[25px]" style={{ fontFamily: "Syne" }}>
+            <div className="heading text-[25px] font-bold" style={{ fontFamily: "Syne" }}>
               Establishing presence
             </div>
-            <div className="sub-text text-[#A5A5A5] text-[13px]">
+            <div className="sub-text text-white font-normal text-[13px]">
               Need a professional website that represents my business properly.
             </div>
           </div>
@@ -57,10 +57,10 @@ const Sec3 = () => {
         </div>
         <div className="card3 group -mt-5 px-3.5 pt-1 hover:pb-8 hover:bg-[#6214D9] bg-[#101010] flex flex-col gap-7 h-fit border-t hover:border-[#B7B7B7] border-[#313131] rounded-t-2xl rounded-b-0 w-full">
           <div className="top">
-            <div className="heading text-[25px]" style={{ fontFamily: "Syne" }}>
+            <div className="heading text-[25px] font-bold" style={{ fontFamily: "Syne" }}>
               Refining & repositioning
             </div>
-            <div className="sub-text text-[#A5A5A5] text-[13px]">
+            <div className="sub-text text-white font-normal text-[13px]">
             Already have a website but want to improve clarity, structure, or design.
             </div>
           </div>
@@ -79,10 +79,10 @@ const Sec3 = () => {
       <div className="Cards bg-[#6214D9] flex flex-col items-center lg:hidden w-90 md:w-[90%] h-fit rounded-2xl overflow-hidden gap-6">
         <div className="card1 border-t border-[#B7B7B7] flex flex-col gap-7 rounded-2xl px-3.5 py-1 h-fit w-full">
           <div className="top">
-            <div className="heading text-[25px]" style={{ fontFamily: "Syne" }}>
+            <div className="heading text-[25px] font-bold" style={{ fontFamily: "Syne" }}>
               Getting Online
             </div>
-            <div className="sub-text text-[#A5A5A5] text-[13px]">
+            <div className="sub-text text-white font-normal text-[13px]">
               First website or simple online presence
             </div>
           </div>
@@ -100,10 +100,10 @@ const Sec3 = () => {
         </div>
         <div className="card2 border-t border-[#B7B7B7] flex flex-col gap-7 rounded-2xl px-3.5 py-1 h-fit w-full">
           <div className="top">
-            <div className="heading text-[25px]" style={{ fontFamily: "Syne" }}>
+            <div className="heading text-[25px] font-bold" style={{ fontFamily: "Syne" }}>
               Establishing presence
             </div>
-            <div className="sub-text text-[#A5A5A5] text-[13px]">
+            <div className="sub-text text-white font-normal text-[13px]">
               need a professional website that represents my business properly.
             </div>
           </div>
@@ -121,10 +121,10 @@ const Sec3 = () => {
         </div>
         <div className="card3 border-t border-[#B7B7B7] flex flex-col gap-7 rounded-2xl px-3.5 py-1 h-fit w-full">
           <div className="top">
-            <div className="heading text-[25px]" style={{ fontFamily: "Syne" }}>
+            <div className="heading text-[25px] font-bold" style={{ fontFamily: "Syne" }}>
               Refining & repositioning
             </div>
-            <div className="sub-text text-[#A5A5A5] text-[13px]">
+            <div className="sub-text text-white font-normal text-[13px]">
               Already have a website but want to improve clarity, structure, or design.
             </div>
           </div>
