@@ -62,6 +62,9 @@ const Navbar = () => {
         {/* Mobile Menu Button */}
         <button
           className="sm:hidden"
+          aria-label={isOpen ? "Close navigation menu" : "Open navigation menu"}
+  aria-expanded={isOpen}
+  aria-controls="mobile-menu"
           onClick={() => setIsOpen((prev) => !prev)}
         >
           {isOpen ? <X size={28} /> : <Menu size={28} />}
