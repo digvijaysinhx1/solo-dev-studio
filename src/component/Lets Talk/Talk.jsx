@@ -5,8 +5,8 @@ import Link2 from '../btn/Link2'
 
 const Talk = () => {
   return (
-    <div id='Lets-Talk' className='h-80 mt-15 md:h-screen flex flex-col items-center w-full bg-center bg-no-repeat bg-cover' style={{ backgroundImage: `url(${Bg})` }}>
-      <div className="text flex flex-col h-full items-center font-semibold" style={{fontFamily:"Syne"}}>
+    <div id='Lets-Talk' className='h-80 mt-15 md:h-screen flex flex-col justify-between items-center w-full bg-center bg-no-repeat bg-cover' style={{ backgroundImage: `url(${Bg})` }}>
+      <div className="text h-fit flex flex-col items-center font-semibold" style={{fontFamily:"Syne"}}>
         <div className="sub-heading  text-[13px] md:text-3xl lg:text-4xl">
           <h1>Have a project in mind? Just let us know!</h1>
         </div>

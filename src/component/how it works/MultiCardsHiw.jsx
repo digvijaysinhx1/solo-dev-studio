@@ -8,7 +8,7 @@ import Span from '../spans/Span'
 const MultiCardsHiw = () => {
   return (
     <>
-      <div className="gap-5 mt-15 flex flex-col items-center justify-center">
+      <div id='How' className="gap-5 mt-15 flex flex-col items-center justify-center">
         <Span text="Process"/>
         <div className="heading" style={{ fontFamily: "Syne" }}>
           <h1 className="text-5xl font-normal">

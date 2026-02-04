@@ -36,7 +36,7 @@ const Navbar = () => {
          hover:after:w-full "
             >Home
             </a>
-            <a href="#"
+            <a href="#What"
               className="relative inline-block
          after:content-['']
          after:absolute after:left-0 after:bottom-0
@@ -46,7 +46,7 @@ const Navbar = () => {
          hover:after:w-full "
             >What We Do
             </a>
-            <a href="#"
+            <a href="#How"
               className="relative inline-block
          after:content-['']
          after:absolute after:left-0 after:bottom-0
@@ -55,16 +55,6 @@ const Navbar = () => {
          after:transition-all after:duration-300
          hover:after:w-full "
             >How it Works
-            </a>
-            <a href="#"
-              className="relative inline-block
-         after:content-['']
-         after:absolute after:left-0 after:bottom-0
-         after:h-0.5 after:w-0
-         after:bg-white
-         after:transition-all after:duration-300
-         hover:after:w-full "
-            >Services 
             </a>
           <GetBtn />
         </div>
@@ -94,20 +84,15 @@ const Navbar = () => {
             className="hover:opacity-80 transition"
           >Home
           </a>
-          <a href="#"
+          <a href="#What"
             onClick={closeMenu}
             className="hover:opacity-80 transition"
           >What We Do
           </a>
-          <a href="#"
+          <a href="#How"
             onClick={closeMenu}
             className="hover:opacity-80 transition"
           >How it Works
-          </a>
-          <a href="#"
-            onClick={closeMenu}
-            className="hover:opacity-80 transition"
-          >Services
           </a>
 
         <GetBtn onClick={closeMenu} />
